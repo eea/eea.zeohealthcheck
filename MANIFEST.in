@@ -1,3 +1,6 @@
-global-exclude *pyc
+include *.rst
+include *.txt
+recursive-include eea *
+global-exclude *py[co]
+global-exclude *.swp
 global-exclude *~
-global-exclude *.un~
