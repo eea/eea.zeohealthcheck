@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import os
 
 setup(name='eea.zeohealthcheck',
-      version='1.0',
+      version='1.1',
       description='Check database connection',
       classifiers=[
         "Programming Language :: Python",
