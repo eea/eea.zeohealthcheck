@@ -1,7 +1,6 @@
 """ Check database connection
 """
-from App import ApplicationManager
-
+from App.ApplicationManager import ApplicationManager
 
 def health_check(self):
     """ Checks if there is an active connection between the client
