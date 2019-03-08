@@ -1,4 +1,7 @@
-1.2 (unreleased)
+1.3 (unreleased)
+----------------
+
+1.2 (2019-03-08)
 ----------------
 * test the connection to temporary the database instead of main [dumitval]
 

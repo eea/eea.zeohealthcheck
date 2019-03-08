@@ -1,11 +1,10 @@
 from setuptools import setup, find_packages
-import os
 
 setup(name='eea.zeohealthcheck',
-      version='1.1',
+      version='1.3',
       description='Check database connection',
       classifiers=[
-        "Programming Language :: Python",
+          "Programming Language :: Python",
       ],
       author='Dragos Chirila (Eaudeweb)',
       author_email='dragos.chirila@eaudeweb.ro',
@@ -18,4 +17,4 @@ setup(name='eea.zeohealthcheck',
       install_requires=[
           'setuptools',
       ],
-)
+      )
