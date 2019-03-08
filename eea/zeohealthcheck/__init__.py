@@ -12,7 +12,9 @@ class HealthCheck(BrowserView):
         """ Checks if there is an active connection between the client
             and zeo server.
         """
-        if self.context._p_jar.db().storage.is_connected():
+        db = self.context.Control_Panel.Database.__getitem__(
+            'temporary')._p_jar.db().storage
+        if db.is_connected():
             return self.request.RESPONSE.setStatus('OK')
         else:
             return self.request.RESPONSE.setStatus('ServiceUnavailable')

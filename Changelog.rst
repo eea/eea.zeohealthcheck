@@ -1,5 +1,6 @@
 1.2 (unreleased)
 ----------------
+* test the connection to temporary the database instead of main [dumitval]
 
 1.1 (2016-12-23)
 ----------------
