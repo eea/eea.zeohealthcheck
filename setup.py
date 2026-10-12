@@ -1,7 +1,7 @@
-from setuptools import setup, find_packages
+from setuptools import setup, find_namespace_packages
 
 setup(name='eea.zeohealthcheck',
-      version='1.3',
+      version='2.0',
       description='Check database connection',
       classifiers=[
           "Programming Language :: Python",
@@ -10,8 +10,8 @@ setup(name='eea.zeohealthcheck',
       author_email='dragos.chirila@eaudeweb.ro',
       url='https://github.com/DragosChirila/eea.zeohealthcheck.git',
       license='GPL',
-      packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['eea'],
+      packages=find_namespace_packages(include=['eea.*']),
+      python_requires='>=3.7',
       include_package_data=True,
       zip_safe=False,
       install_requires=[

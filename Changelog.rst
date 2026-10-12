@@ -1,5 +1,6 @@
-1.3 (unreleased)
+2.0 (unreleased)
 ----------------
+* Use a PEP 420 namespace package for eea and require Python 3 [dumitval]
 
 1.2 (2019-03-08)
 ----------------
